@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="icon" href="img/logo.ico" />
+  <title>Catálogo</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+
+    .catalogo {
+      display: flex;
+      align-items: center;
+    }
+
+    .catalogo img {
+      margin-right: 15px;
+    }
+
+    .camisetas {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5px;
+      /* Aumenta la separación entre las imágenes */
+    }
+
+    .camisetas div {
+      text-align: center;
+    }
+
+    .camisetas img {
+      width: 200px;
+      /* Aumenta el tamaño de las imágenes */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="catalogo">
+    <img src="img/logo.png" alt="Logo" width="100" />
+    <h1>Catálogo</h1>
+  </div>
+  <div class="camisetas">
+    <div>
+      <img src="img/camisa arsenal 1.jpg" alt="Camiseta de fútbol 1" />
+      <p>Arsenal Visitante 23/24 version jugador</p>
+      <p>US$45</p>
+    </div>
+    <div>
+      <img src="img/camisa real madrid 1.jpg" alt="Camiseta de fútbol 2" />
+      <p>Real madrid Titular 23/24 version jugador</p>
+      <p>US$45</p>
+    </div>
+    <div>
+      <img src="img/camisa barcelona retro.jpg" alt="Camiseta de fútbol 3" />
+      <p>Fc Barcelona 14/15 Titular</p>
+      <p>US$45</p>
+    </div>
+    <div>
+      <img src="img/camisa mexico 1998.jpg" alt="Camiseta de fútbol 3" />
+      <p>camisa mexico 1998 Titular</p>
+      <p>US$35</p>
+    </div>
+    <div>
+      <img src="img/camisa real madrid.jpg" alt="Camiseta de fútbol 3" />
+      <p>Real madrid Vistante 23/24 version jugador</p>
+      <p>US$45</p>
+    </div>
+    <div>
+      <img src="img/camisa arsenal.jpg" alt="Camiseta de fútbol 4" />
+      <p>Arsenal Titular 23/24 version jugador</p>
+      <p>US$45</p>
+    </div>
+  </div>
+</body>
+
+</html> 
